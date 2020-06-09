@@ -1,0 +1,24 @@
+body{
+  background-color: pink;
+  margin: 0% 10%;
+  scroll-behavior: smooth;
+}
+h1 {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: 2px 2px 5px red;
+	font-size: 70px;
+	text-decoration: underline;
+	position: relative;
+	bottom: 30px;
+
+}
+form{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: 2px 2px 5px green;
+	font-size: 30px;
+	text-decoration: underline;
+	position: relative;
+	bottom: 30px;
+}
