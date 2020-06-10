@@ -1,2 +1,2 @@
 # Cgpa
-Cgpa calculator
+CGPA calculator
