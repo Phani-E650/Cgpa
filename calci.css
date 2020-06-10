@@ -2,6 +2,7 @@ body{
   background-color: pink;
   margin: 0% 10%;
   scroll-behavior: smooth;
+ 
 }
 h1 {
 	text-align: center;
@@ -21,4 +22,13 @@ form{
 	text-decoration: underline;
 	position: relative;
 	bottom: 30px;
+	line-height: 1.5;
+	border: 5px solid brown;
+	padding-left: -50%;
+	padding-right: -50%;
+}
+input#submit{
+	font-size: 40px;
+	color:red;
+	line-height: 1;
 }

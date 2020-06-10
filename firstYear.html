@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h1>First year sgpa calculator </h1>
-	<FORM>
+	<form action="javascript:void(0)">
 		<label for="sub1">Enter subject1 grade point:-  </label>
 		<input id ="sub1"type="text" name="subject1" placeholder="ex:->10" required><br>
 		<label for="sub2">Enter subject2 grade point:-  </label>
@@ -24,12 +24,14 @@
 		<input id ="lab1"type="text" name="subject1" placeholder="ex:->10" required><br>
 		<label for="lab2">Enter lab2 grade point:-  </label>
 		<input id ="lab2"type="text" name="subject1" placeholder="ex:->10" required><br>
-		<input type="submit" name="submit" value="Submit" onclick="calculator()">
-		<p id="calci">sgpa is</p>
+		<input id = "submit" type="submit" name="submit" value="Submit" onclick="calculator()">
+		<p id="calci"></p>
+		<p id="calci1"></p>
+		
 
 		<!--The Sgpa is: <input type="text" id="calci" placeholder="percentage"><br>
 		<button type="submit" onclick="calculator()" id="calci">click me</button>-->
 		
-	</FORM>
+	</form>
 </body>
 </html>
