@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second year sgpa calculator</title>
+	<script src="calsi2.js"></script>
+	<link rel="stylesheet" type="text/css" href="calci.css">
+</head>
+<body>
+	<h1>Second year sgpa calculator </h1>
+	<div class="imform">
+		<p>As per JNTU the points for the grades is as follows.</p>
+	<ul>
+		<li>O grade : 10</li>
+		<li>S grade : 9</li>
+		<li>A grade : 8</li>
+		<li>B grade : 7</li>
+		<li>C grade : 6</li>
+		<li>D grade : 5</li>
+	</ul>
+	</div>
+	<form action="javascript:void(0)">
+		<label for="sub1">Enter subject1 grade point:-  </label>
+		<input id ="sub1"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+		<label for="sub2">Enter subject2 grade point:-  </label>
+		<input id ="sub2"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+		<label for="sub3">Enter subject3 grade point:-  </label>
+		<input id ="sub3"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+		<label for="sub4">Enter subject4 grade point:-  </label>
+		<input id ="sub4"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+		<label for="sub5">Enter subject5 grade point:-  </label>
+        <input id ="sub5"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+        <label for="sub6">Enter subject6 grade point:-  </label>
+		<input id ="sub6"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+		<label for="lab1">Enter lab1 grade point:-  </label>
+		<input id ="lab1"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+		<label for="lab2">Enter lab2 grade point:-  </label>
+		<input id ="lab2"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>
+		<!--<label for="lab3">Enter lab3 grade point:-  </label>
+		<input id ="lab3"type="number" name="subject1" placeholder="ex:->10" min="1" max="10" required><br>-->
+		<input id = "submit" type="submit" name="submit" value="Submit" onclick="calculator()">
+		<p id="calci"></p>
+		<p id="calci1"></p>
+		
+
+		<!--The Sgpa is: <input type="text" id="calci" placeholder="percentage"><br>
+		<button type="submit" onclick="calculator()" id="calci">click me</button>-->
+		
+	</form>
+</body>
+</html>
