@@ -14,6 +14,12 @@ h1 {
 	bottom: 30px;
 
 }
+div.imform{
+	
+	text-decoration-color: blue;
+	font-size: 30px;
+
+}
 form{
 	text-align: center;
 	font-family: "Times New Roman", Times, serif;
@@ -24,8 +30,11 @@ form{
 	bottom: 30px;
 	line-height: 1.5;
 	border: 5px solid brown;
+	padding-top: 5%;
 	padding-left: -50%;
 	padding-right: -50%;
+	margin-top: 100px;
+	
 }
 input#submit{
 	font-size: 40px;
