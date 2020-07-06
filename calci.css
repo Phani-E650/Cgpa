@@ -1,5 +1,5 @@
 body{
-  background-color: pink;
+  background-image:linear-gradient(rgb(132, 91, 187),green);
   margin: 0% 10%;
   scroll-behavior: smooth;
  
@@ -21,7 +21,7 @@ div.imform{
 
 }
 form{
-	text-align: center;
+	text-align: left;
 	font-family: "Times New Roman", Times, serif;
 	text-shadow: 2px 2px 5px green;
 	font-size: 30px;
@@ -31,13 +31,28 @@ form{
 	line-height: 1.5;
 	border: 5px solid brown;
 	padding-top: 5%;
-	padding-left: -50%;
+	padding-left: 200px%;
 	padding-right: -50%;
 	margin-top: 100px;
 	
 }
+input{
+font-size: large;
+}
+input [placeholder]{
+	font-size: 100px;
+}
+.form{
+	padding-left: 25%;
+}
+
+
+
 input#submit{
 	font-size: 40px;
 	color:red;
 	line-height: 1;
+	position: relative;
+	left: 150px;
+	top: 25px;
 }
