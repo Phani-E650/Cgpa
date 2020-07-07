@@ -33,3 +33,16 @@ h1{
 	font-size:500px;
 	background-color: hsla(48, 100%, 93%, 1);
 }
+
+button#p:hover{
+  background-image: linear-gradient(to right,rgb(255, 174, 0),rgb(0, 247, 255)); 
+}
+button#q:hover{
+  background-image: linear-gradient(to right,rgb(255, 174, 0),rgb(0, 247, 255)); 
+}
+button#r:hover{
+  background-image: linear-gradient(to right,rgb(255, 174, 0),rgb(0, 247, 255)); 
+}
+button#s:hover{
+  background-image: linear-gradient(to right,rgb(255, 174, 0),rgb(0, 247, 255)); 
+}
