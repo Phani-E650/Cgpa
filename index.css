@@ -8,7 +8,7 @@ button#p,button#q,button#r,button#s{
   
   border: 4px solid black;
   color: white;
-  padding: s0px 40px;
+  padding: 0px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -29,7 +29,7 @@ h1{
 }
 .button{
 	text-align: center;
-	line-height: 1.5
+	line-height: 1.5;
 	font-size:500px;
 	background-color: hsla(48, 100%, 93%, 1);
 }
